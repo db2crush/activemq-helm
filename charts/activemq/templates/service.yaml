@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "activemq.fullname" . }}
+  name: activemq
   labels:
     {{- include "activemq.labels" . | nindent 4 }}
 spec:
