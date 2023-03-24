@@ -1,10 +1,17 @@
 # activemq-helm
 
-This chart installs [Apache ActiveMQ](https://db2crush.github.io/activemq-helm/)
+# Usage
+[Helm](https://helm.sh) must be installed and initialized to use the charts.
+Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 
-# ActiveMQ Account
+Once Helm is set up properly, add the repo as follows:
+
+```console
+helm repo add activemq https://db2crush.github.io/activemq-helm/stable
+```
+
+# ActiveMQ Admin Account
 ```
 ID: admin
 PW: admin
-
 ```
