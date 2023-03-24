@@ -37,6 +37,18 @@ spec:
             - name: http
               containerPort: 8161
               protocol: TCP
+            - name: netty
+              containerPort: 61616
+              protocol: TCP
+            - name: amqp
+              containerPort: 5672
+              protocol: TCP
+            - name: stomp
+              containerPort: 61613
+              protocol: TCP
+            - name: mqtt
+              containerPort: 1883
+              protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
