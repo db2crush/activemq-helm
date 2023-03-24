@@ -3,7 +3,17 @@ entries:
   activemq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-24T14:15:43.881114+09:00"
+    created: "2023-03-24T14:18:38.466404+09:00"
+    description: ActiveMQ Simple Charts
+    digest: 0bba8ff0e8e2cf81f0413b806ba419d11455d23f6adf7ef77f75939ab0dd17c5
+    name: activemq
+    type: application
+    urls:
+    - https://db2crush.github.io/activemq-helm/stable/activemq-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-24T14:18:38.462198+09:00"
     description: ActiveMQ Simple Charts
     digest: 039117de3f9451938383e0620e05a9527a820077b4beca6c22317d647be8c8de
     name: activemq
@@ -13,7 +23,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-24T14:15:43.880866+09:00"
+    created: "2023-03-24T14:18:38.461735+09:00"
     description: A Helm chart for Kubernetes
     digest: ad2fa35c837083e250a2c19c0c05b70b10cf86c6fbb5da89684a768ca5a5e5a1
     name: activemq
@@ -23,7 +33,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-24T14:15:43.880385+09:00"
+    created: "2023-03-24T14:18:38.461239+09:00"
     description: A Helm chart for Kubernetes
     digest: 46cf67929168aa1644b1e9cec223e3165653e1554e91dad91a7b624aa3466001
     name: activemq
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://db2crush.github.io/activemq-helm/stable/activemq-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-24T14:15:43.879492+09:00"
+generated: "2023-03-24T14:18:38.460252+09:00"
